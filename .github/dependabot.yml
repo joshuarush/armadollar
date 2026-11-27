@@ -6,6 +6,12 @@ updates:
       interval: "weekly"
     cooldown:
       default-days: 3
+  - package-ecosystem: "pip"
+    directory: "/scripts"
+    schedule:
+      interval: "weekly"
+    cooldown:
+      default-days: 3
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
